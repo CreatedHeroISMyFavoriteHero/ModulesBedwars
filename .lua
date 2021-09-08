@@ -31,11 +31,11 @@ local function UnbindFromRenderStep(name)
 		RenderStepTable[name] = nil
 	end
 end
---[[local place = game:GetService("MarketplaceService"):GetProductInfo(6872265039)
+local place = game:GetService("MarketplaceService"):GetProductInfo(6872265039)
 if place.Updated ~= "2021-09-01T16:32:56.5999524Z" then
     local textlabel = Instance.new("TextLabel")
     textlabel.Size = UDim2.new(1, 0, 1, 36)
-    textlabel.Text = "The script is currently down for testing due to the BedWars update.."
+    textlabel.Text = "The script is currently down for testing due to the BedWars update."
 	textlabel.TextColor3 = Color3.new(1, 1, 1)
     textlabel.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
     textlabel.Position = UDim2.new(0, 0, 0, -36)
@@ -43,7 +43,7 @@ if place.Updated ~= "2021-09-01T16:32:56.5999524Z" then
     textlabel.Parent = GuiLibrary["MainGui"]
 local textlabel = Instance.new("TextLabel")
 textlabel.Size = UDim2.new(1, 0, 0, 36)
-textlabel.Text = "Remember to use alts in this new update, report bans to the discord."
+textlabel.Text = "Remember to use alts in this new update, report bans to rent#8392."
 textlabel.BackgroundTransparency = 1
 textlabel.TextStrokeTransparency = 0
 textlabel.TextSize = 30
